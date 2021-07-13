@@ -13,7 +13,7 @@ I believe that we can use biofeedback to enhance the emotions and overall wellbe
 
 
 
-Whats the 1 sentence breakdown of the code I am using to do this?
+Whats the data I am using to do this?
 I will take my own personal data from the past 90 days, I will do some initial data exploration, and then I will feed the best features into a Time Series model -DeepAR - using Sagemaker. With this model I will be able to see a few things
 
 Meaningful Exploratory Analysis
@@ -33,3 +33,6 @@ I have constructed a way to integrate daily self measurements, with biofeedback 
 ## Specific file names and their meaning
 Python Notebook - This is the main body of code
 Utility Functions - A list of utility python functions used multiple times throughout
+
+To start exploring:
+Open the folder "Flexvolt ML" and select the Data Loading .ipynb file inside - this repo is in its early stages, starting with loading in the raw data from the EMG sensor to use with a time-series classification algorithm.
